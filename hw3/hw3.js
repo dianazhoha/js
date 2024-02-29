@@ -66,15 +66,6 @@ document.write(`</ul>`)
 
 
 
-
-
-
-
-
-
-
-
-
 // Використовуючи данні з масиву, за допомоги document.write та циклу
 // побудувати структуру по шаблону
 // Великими літерами прописанні властивості об'єкту які потрібно впровадити в шаблон
@@ -115,6 +106,12 @@ for (let product of products) {
  <img src="${product.image}" alt="">
 </div>`)
 }
+
+
+
+
+
+
 // - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
 
 let numbers = [100, 200, 300, 400, 500, 600, 700, 800, 900,1000]
@@ -125,6 +122,9 @@ for (let number of numbers) {
 
 }
 
+
+
+
 // - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині
 
 let colors = ['red', 'blue', 'pink', 'white', 'aquamarine', ' green', 'olive', 'brown', 'black', 'purple']
@@ -133,6 +133,9 @@ for (let i = 0; i < colors.length; i++) {
     const color = colors[i];
      document.write( `<div> ${color} ${i}</div>`)
 }
+
+
+
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
 
 let cats = ['cat1', 'cat2','cat2','cat3','cat4','cat5','cat6','cat7','cat8','cat9','cat10','cat12','cat11','cat13','cat14','cat15','cat16','cat17','cat18','cat19','cat20']
@@ -142,6 +145,9 @@ while ( i < cats.length) {
     document.write( `<h1> ${cat}</h1>`)
 i++
 }
+
+
+
 
 // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
 
