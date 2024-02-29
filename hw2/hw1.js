@@ -173,10 +173,10 @@ x = -3
  // (в першу, другу, третю или четверту частину години).
 
  let time = 11
- if(time <= 15) {console.log('first quater')}
- else if (time  <= 30 ) {console.log('second quater')}
-else if (time <= 45) { console.log('third quater')}
-else if (time <= 59){console.log('fourth quater')}
+ if(time >0 && time <= 15) {console.log('first quater')}
+ else if (time >0 && time <= 30 ) {console.log('second quater')}
+else if (time >0 && time<= 45) { console.log('third quater')}
+else if (time >0 && time <= 59){console.log('fourth quater')}
 
 
 
@@ -200,7 +200,7 @@ else if (day <= 31) {console.log('3d')}
 
  // - Скласти розклад на тиждень за домопоги switch. Користувач вводить порядковий номер дня тижня і на екрані відображається інфа що заплановано на цей день (можна замість плану на день, назву дня англійською).
 
- switch (6) { case '1': console.log('monday')
+ switch (9) { case '1': console.log('monday')
      break;
      case 1: console.log('tuesday')
          break;
@@ -213,6 +213,9 @@ else if (day <= 31) {console.log('3d')}
      case 6: console.log('saturday')
          break;
      case 7 : console.log( 'sunday')
+         break;
+     default :
+         console.log(' ')
 }
 
  // ?? тут питання до завдання - це якщо я визначила яке число більше то по факту вивела максимальне?
@@ -222,7 +225,8 @@ else if (day <= 31) {console.log('3d')}
 
  let a = 7
  let b = 89
- console.log( a < b )
+ if ( a < b ) { console.log( a < b )
+ }
 
 
 
