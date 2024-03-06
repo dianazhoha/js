@@ -129,7 +129,7 @@ for (let number of numbers) {
 
 let colors = ['red', 'blue', 'pink', 'white', 'aquamarine', ' green', 'olive', 'brown', 'black', 'purple']
 
-for (let i = 0; i < colors.length; i++) {
+for (let i = 0; i < 20; i++) {
     const color = colors[i];
      document.write( `<div> ${color} ${i}</div>`)
 }
